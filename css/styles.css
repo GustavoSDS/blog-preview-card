@@ -91,6 +91,7 @@ body {
   }
   .article-content-description {
     height: 72px;
+    line-height: 24px;
   }
 }
 .article .author {

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header,
+nav,
+footer {
+  display: none;
+}
+
+body {
+  font-family: Figtree;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  font-size: clamp(0.75rem, 2.5vw, 0.875rem);
+}
+
+.article {
+  margin: 155px auto 0;
+  min-width: 321px;
+  width: 100%;
+  max-width: 384px;
+  height: 501px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  padding: 24px;
+  filter: drop-shadow(8px 8px 0px #000000);
+}
+.article-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.article-content {
+  width: 100%;
+  height: 179px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.article-content-tag {
+  width: 73px;
+  height: 26px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 800;
+  display: grid;
+  place-content: center;
+}
+.article-content-tag:hover {
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  transition: all 1s ease-out;
+}
+.article-content-date-published {
+  font-weight: 500;
+}
+.article-content-title {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-weight: 800;
+}
+.article-content-title:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+  transition: all 1s ease-out;
+}
+.article-content-description {
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
+  font-weight: 500;
+  color: hsl(0, 0%, 50%);
+}
+@media screen and (min-width: 768px) {
+  .article {
+    width: 384px;
+    filter: drop-shadow(16px 16px 0px #000000);
+  }
+  .article-content-tag {
+    width: 82px;
+    height: 29px;
+  }
+}
+.article .author {
+  width: 129px;
+  height: 32px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.article .author-avatar {
+  width: 32px;
+  height: 32px;
+}
+.article .author-name {
+  width: 85px;
+  height: 21px;
+  font-size: clamp(0.875rem, 2.5vw, 0.875rem);
+  font-weight: 800;
+}
+.article .author-name:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+  transition: all 1s ease-out;
+}
+
+/*# sourceMappingURL=styles.css.map */

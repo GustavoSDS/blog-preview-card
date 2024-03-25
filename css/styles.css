@@ -82,6 +82,9 @@ body {
     height: 522px;
     margin-top: 215.5px;
   }
+  .article-content {
+    height: 194px;
+  }
   .article-content-tags {
     width: 82px;
     height: 29px;

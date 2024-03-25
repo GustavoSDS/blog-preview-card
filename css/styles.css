@@ -89,6 +89,9 @@ body {
     width: 82px;
     height: 29px;
   }
+  .article-content-description {
+    height: 72px;
+  }
 }
 .article .author {
   width: 129px;
